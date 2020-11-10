@@ -2,6 +2,13 @@
 
 We published 4 papers in Interspeech 2020, the papers are as followings.
 
+**The JD AI Speaker Verification System for the FFSVC 2020 Challenge**
+
+Ying Tong(JD AI Research), Wei Xue(JD AI Research), Shanluo Huang(JD AI Research), Lu Fan(JD AI Research), Chao Zhang(JD AI Research), Guohong Ding(JD AI Research) and Xiaodong He(JD AI Research)
+
+Abstract: This paper presents the development of our systems for the Interspeech 2020 Far-Field Speaker Verification Challenge (FFSVC). Our focus is the task 2 of the challenge, which is to perform far-field text-independent speaker verification using a single microphone array. The FFSVC training set provided by the challenge is augmented by pre-processing the far-field data with both beamforming, voice channel switching, and a combination of weighted prediction error (WPE) and beamforming. Two open-access corpora, CHData in Mandarin and VoxCeleb2 in English, are augmented using multiple methods and mixed with the augmented FFSVC data to form the final training data. Four different model structures are used to model speaker characteristics: ResNet, extended time-delay neural network (ETDNN), Transformer, and factorized TDNN (FTDNN), whose output values are pooled across time using the self-attentive structure, the statistic pooling structure, and the GVLAD structure. The final results are derived by fusing the adaptively normalized scores of the four systems with a two-stage fusion method, which achieves a minimum of the detection cost function (minDCF) of 0.3407 and an equal error rate (EER) of 2.67% on the development set of the challenge.
+
+
 **Efficient WaveGlow: An Improved WaveGlow Vocoder with Enhanced Speed**
 
 Wei Song(JD AI Research), Guanghui Xu(JD AI Research), Zhengchen Zhang(JD.com), Chao Zhang(University of Cambridge), Xiaodong He(JD AI Research) and Bowen Zhou(JD AI Research)
